@@ -1,0 +1,25 @@
+{
+    "name": "fleetcart/withdraw",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mehedi Hasan",
+            "email": "mehedi5531@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Withdraw\\Providers\\WithdrawServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Withdraw\\": ""
+        }
+    }
+}

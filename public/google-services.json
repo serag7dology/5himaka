@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "565047459275",
+    "firebase_url": "https://chat-a378a.firebaseio.com",
+    "project_id": "chat-a378a",
+    "storage_bucket": "chat-a378a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565047459275:android:fe2dd30604550eac628a4e",
+        "android_client_info": {
+          "package_name": "com.adology.himaka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565047459275-i118fhslspq1s9itcn9bou3utfdpj49k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEP1lWEWk1v48u6s96-Y4K16qzZX2JJas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565047459275-i118fhslspq1s9itcn9bou3utfdpj49k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "565047459275-o40lltke0e56ts4tgavrai7q667b3snt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.adology.himaka"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+@extends('admin::layout')
+
+@component('admin::components.page.header')
+    @slot('title', trans('user::users.users'))
+
+    <li class="active">{{ trans('user::users.users') }}</li>
+@endcomponent
+
+@component('admin::components.page.index_table')
+    @slot('buttons', ['create'])
+    @slot('resource', 'users')
+    @slot('name', trans('user::users.user'))
+
+    @slot('thead')
+        <tr>
+            @include('admin::partials.table.select_all')
+
+            <th>{{ trans('user::users.table.first_name') }}</th>
+            <th>{{ trans('user::users.table.last_name') }}</th>
+            <th>{{ trans('user::users.table.email') }}</th>
+            <th>{{ trans('user::users.table.last_login') }}</th>
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <th>{{ trans('user::users.table.witdraw_method') }}</th>
+=======
+            {{--  <th>{{ trans('user::users.table.witdraw_method') }}</th>  --}}
+>>>>>>> a0742e146695c20142eae4b146d3d134a15283c9
+=======
+>>>>>>> e9504747df9190e9e58fba8bdc7dd49765181430
+
+            <th data-sort>{{ trans('admin::admin.table.created') }}</th>
+        </tr>
+    @endslot
+@endcomponent
+
+@push('scripts')
+    <script>
+        new DataTable('#users-table .table', {
+            columns: [
+                { data: 'checkbox', orderable: false, searchable: false, width: '3%' },
+                { data: 'first_name', name: 'first_name' },
+                { data: 'last_name', name: 'last_name' },
+                { data: 'email', name: 'email' },
+                { data: 'last_login', name: 'last_login', searchable: false },
+<<<<<<< HEAD
+<<<<<<< HEAD
+                { data: 'withdraw_method.name', name: 'withdraw_method.name' },
+=======
+             //   { data: 'withdraw_method.name', name: 'withdraw_method.name' },  
+>>>>>>> a0742e146695c20142eae4b146d3d134a15283c9
+=======
+>>>>>>> e9504747df9190e9e58fba8bdc7dd49765181430
+                { data: 'created', name: 'created_at' },
+            ],
+        });
+    </script>
+@endpush

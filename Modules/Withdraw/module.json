@@ -1,0 +1,13 @@
+{
+    "name": "Withdraw",
+    "alias": "withdraw",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Withdraw\\Providers\\WithdrawServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
